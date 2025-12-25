@@ -10,4 +10,5 @@ Allow: /
 
 # Tautan ke Peta Situs (SANGAT PENTING UNTUK SEO)
 # Ganti 'www.domainanda.com' dengan domain asli Anda
-Sitemap: https://glutaindo.store/sitemap.xml
+
+Sitemap: https://www.glutaindo.store/sitemap.xml
