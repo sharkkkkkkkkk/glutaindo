@@ -1,0 +1,13 @@
+# Robots.txt untuk Glutaindo Landing Page
+# Mengizinkan akses penuh agar Google bisa render layout (CSS/JS)
+
+User-agent: *
+Allow: /
+
+# Mencegah crawling pada folder sistem/private (Jika ada)
+# Disallow: /private/
+# Disallow: /cgi-bin/
+
+# Tautan ke Peta Situs (SANGAT PENTING UNTUK SEO)
+# Ganti 'www.domainanda.com' dengan domain asli Anda
+Sitemap: https://glutaindo.store/sitemap.xml
