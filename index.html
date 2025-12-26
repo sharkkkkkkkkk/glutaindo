@@ -7,7 +7,7 @@
 
     <title>Glutaindo Official | Paket Body Care & Suplemen Pemutih Herbal BPOM</title>
 
-    <link rel="icon" type="svg+xml" href="logo.svg">
+    <link rel="icon" type="webp" href="logo.webp">
 
     <link rel="canonical" href="https://glutaindo.store/" />
 
@@ -730,10 +730,13 @@
         });
 
         closeBtn.onclick = () => modal.classList.remove('active');
-        modal.onclick = (e) => { if (e.target === modal) modal.classList.remove('active'); }
+        modal.onclick = (e) => {
+            if (e.target === modal) modal.classList.remove('active');
+        }
 
         function startTimer(duration, display) {
-            var timer = duration, hours, minutes, seconds;
+            var timer = duration,
+                hours, minutes, seconds;
             setInterval(function () {
                 hours = parseInt(timer / 3600, 10);
                 minutes = parseInt((timer % 3600) / 60, 10);
